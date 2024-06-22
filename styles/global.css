@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    display: block;
+}
+
+body{
+
+    font-family: 'Poppins', sans-serif;
+    
+    color: rgb(0% 0% 0% / 0);
+    font-size: 44px;
+    background: rgb(2,0,36);
+background: linear-gradient(66deg, rgba(2,0,36,1) 0%, rgba(16,16,18,1) 100%, rgba(70,88,73,1) 100%, rgba(101,162,111,1) 100%);
+    
+    
+}
+
+.font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .font-quicksand {
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .font-nunito {
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .mid_content{
+    width: 60%;
+    margin: auto;
+    
+  }
+
+
+
+
+
+
+
+  /*  Responsive Design */
+
+  @media (max-width: 1000px) {
+
+  .mid_content{
+    width: 100%;
+    margin: auto;
+  
+  }
+
+  }
+
+ 
