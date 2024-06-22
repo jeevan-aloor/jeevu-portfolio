@@ -23,7 +23,7 @@ function Application() {
     />
   </Head>
     <div className='antialiased text-gray-200 transition ease-in-out  font-body selection:bg-amber-500 selection:text-gray-200 ' >
-      <div className='  mid_content   relative' style={{height:"200vh"}} >
+      <div className='  mid_content   relative'  >
         <div className=' sticky top-0 w-full  sm:m-2'>
         <Navbar/>
         </div>

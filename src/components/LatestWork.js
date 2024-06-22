@@ -2,8 +2,8 @@ import React from 'react'
 
 function LatestWork() {
   return (
-    <div>
-        <h2 className='text-3xl font-medium mt-12  ' style={{color:"rgb(399, 381, 385)"}}>Latest Projects</h2>
+    <div className='p-3'>
+        <h2 className='text-3xl font-medium mt-12  ' >Latest Projects</h2>
         <div className='pb-5 mt-5' style={{borderBottom:"0.2px solid white"}}>
             <h3 className='hover:text-orange-400 text:[rgb(399, 381, 385)]'  style={{fontSize:"24px",fontWeight:"500"}}>The Astronomical Significance of Makar Sankranti</h3>
             <p  style={{color:"rgb(156, 163, 175)",fontSize:"18px",fontWeight:"400"}}>Makar Sankranti is celebrated on January 14th, and is one of the few festivals on the Hindu lunar calendar that are based on the Sun&apos;s position.</p>
