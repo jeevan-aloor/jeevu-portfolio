@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Profile() {
   return (
@@ -9,15 +10,15 @@ function Profile() {
     <h2 class="text-xl mt-8"><span className='block'>I am a software engineer and writer.</span></h2>
     <h2 class="text-xl mt-2"><span className='block'>I help create tools that enable human progress.</span></h2>
     <div className='flex gap-10 mt-10 justify-around '>
-        <a href="#"><img src='/images/x.png' alt="twitter" width="30px"/></a>
-        <a href="#"><img src='/images/github.png' alt="twitter" width="30px"/></a>
-        <a href="#"><img src='/images/instagram.png' alt="twitter" width="30px"/></a>
-        <a href="#"><img src='/images/instagram.png' alt="twitter" width="30px"/></a>
-        <a href="#"><img src='/images/linkedin.png' alt="twitter" width="30px"/></a>
+        <Link href="#"><img src='/images/x.png' alt="twitter" width="30px"/></Link>
+        <Link href="#"><img src='/images/github.png' alt="twitter" width="30px"/></Link>
+        <Link href="#"><img src='/images/facebook.png' alt="twitter" width="30px"/></Link>
+        <Link href="#"><img src='/images/instagram.png' alt="twitter" width="30px"/></Link>
+        <Link href="#"><img src='/images/linkedin.png' alt="twitter" width="30px"/></Link>
 
     </div>
     </div>
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 mb-4 mt-12 "><a class="col-auto" target="_self" href="/digital-security"><div class=" bg-white/[10%] backdrop-blur-md border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2" ><div class="font-medium  text-center" style={{fontSize:"16px"}}>Digital Security Guide</div></div></a><a class="col-auto" target="_self" href="/code"><div class="bg-white/[10%] backdrop-blur-md backdrop-saturate-150 backdrop-brightness-100 border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2"><div class="font-medium  text-center" style={{fontSize:"16px"}}>Code Tutorials</div></div></a><a class="col-auto" target="_self" href="/projects"><div class="bg-white/[10%] backdrop-blur-md backdrop-saturate-150 backdrop-brightness-100 border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2"><div class="font-medium  text-center" style={{fontSize:"16px"}}>Apps &amp; Tools</div></div></a></div>
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-4 mb-4 mt-12 "><Link class="col-auto" target="_self" href="/digital-security"><div class=" bg-white/[10%] backdrop-blur-md border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2" ><div class="font-medium  text-center" style={{fontSize:"16px"}}>Digital Security Guide</div></div></Link><Link class="col-auto" target="_self" href="/code"><div class="bg-white/[10%] backdrop-blur-md backdrop-saturate-150 backdrop-brightness-100 border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2"><div class="font-medium  text-center" style={{fontSize:"16px"}}>Code Tutorials</div></div></Link><Link class="col-auto" target="_self" href="/projects"><div class="bg-white/[10%] backdrop-blur-md backdrop-saturate-150 backdrop-brightness-100 border-b border-white/[10%] rounded-2xl duration-300 hover:text-orange-hover px-3 py-2"><div class="font-medium  text-center" style={{fontSize:"16px"}}>Apps &amp; Tools</div></div></Link></div>
 
     </div>
   )

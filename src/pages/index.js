@@ -10,7 +10,7 @@ function Home() {
       <Profile/>
       <LatestWork/>
       <Contact/>
-      <Footer/>
+      
     </div>
   )
 }
